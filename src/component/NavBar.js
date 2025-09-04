@@ -2,10 +2,27 @@ import { GoChevronDown } from "react-icons/go";
 import { FiSearch, FiShoppingCart } from "react-icons/fi";
 import { IoClose } from "react-icons/io5";
 import { Link } from "react-router-dom";
+// import { useState, useEffect } from "react";
 
 function NavBar() {
+  //   const [scroll, setScroll] = useState(false);
+
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY > 0) { // المسافة اللي تبدأ فيها الحركة
+  //       setScroll(true);
+  //     } else {
+  //       setScroll(false);
+  //     }
+  //   };
+
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => window.removeEventListener("scroll", handleScroll);
+  // }, []);
   return (
-    <nav id="navigation" className="fixed-top navbar-light bg-faded site-navigation">
+    <nav id="navigation"
+    //  className={'fixed-top navbar-light bg-faded site-navigation ${scroll ? "scrolled" : ""}'}
+     >
       <div className="container">
         <div className="row">
           <div className="col-lg-2 col-md-3 col-4">

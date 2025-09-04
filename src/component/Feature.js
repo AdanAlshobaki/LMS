@@ -1,5 +1,6 @@
 import React from "react";
 import "./app.css";
+import { GoArrowRight } from "react-icons/go";
 
 const features = [
   {
@@ -29,7 +30,7 @@ function Features() {
             <p>{item.description}</p>
             <a href="#btn" className="explore-btn">
           
-              EXPLORE COURSES  →
+              EXPLORE COURSES  <GoArrowRight />
             </a>
           </div>
         ))}
