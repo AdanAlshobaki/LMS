@@ -4,7 +4,7 @@ A Coursera-inspired Learning Management System built with React.js,
 featuring course browsing, lesson display, and student progress tracking.
 
 ##  Live Demo
-[View Live](your-vercel-link-here)
+[View Live](https://lms-gray-five-83.vercel.app/)
 
 ##  Features
 -  Browse and explore available courses
@@ -24,6 +24,6 @@ cd LMS
 npm install
 npm start
 
-## 🙋 Author
+##  Author
 **Adan Alshobaki** — Front-end Developer
 [LinkedIn](https://linkedin.com/in/adan-alshobaki-)
