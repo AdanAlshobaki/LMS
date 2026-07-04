@@ -1,4 +1,5 @@
-
+import { FaBook, FaClock, FaSignal } from "react-icons/fa";
+import { CiStar } from "react-icons/ci";
 
 
 export default function CourseCard({ course }) {
